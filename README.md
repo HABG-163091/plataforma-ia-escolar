@@ -1,0 +1,45 @@
+# 🚀 Plataforma Web de Civismo Digital y Buen Uso de IA Generativa
+
+Sistema multiplataforma desarrollado en **Java EE (JSP)** y **MySQL** enfocado en estudiantes de educación básica (primaria y secundaria). El objetivo principal de la plataforma es guiar a los alumnos en el uso responsable, ético y seguro de las herramientas de Inteligencia Artificial Generativa.
+
+---
+
+## 🛠️ Software y Herramientas Utilizadas
+
+Para el ciclo de vida completo de este software se emplearon las siguientes herramientas profesionales:
+* **GanttProject:** Planificación del cronograma y control de tiempos de desarrollo.
+* **ArgoUML:** Modelado del diagrama de clases y arquitectura orientada a objetos (POO).
+* **Balsamiq Wireframes:** Prototipado y diseño de experiencia de usuario (UX/UI).
+* **NetBeans IDE & GlassFish Server:** Entorno de desarrollo y servidor web para el despliegue de las páginas JSP.
+* **XAMPP / phpMyAdmin:** Gestión y persistencia de la base de datos relacional MySQL.
+
+---
+
+## 📦 Estructura del Proyecto
+
+El sistema está organizado bajo buenas prácticas de desarrollo web en Java, separando las vistas de la lógica de conexión:
+
+* `web/`
+  * `index.jsp` -> Pantalla de acceso seguro (Login) con validación de roles.
+  * `principal.jsp` -> Dashboard dinámico de aprendizaje que genera tarjetas basadas en la base de datos.
+  * `detalle.jsp` -> Ficha pedagógica interactiva que despliega ejemplos prácticos según el recurso seleccionado.
+  * `admin.jsp` -> Panel de administración con operaciones de lectura de datos y uso de arreglos lógicos.
+* `src/`
+  * `conexion/ConexionBD.java` -> Clase encapsulada para la gestión del pool de conexiones JDBC hacia MySQL.
+
+---
+
+## 💾 Modelo de Datos (MySQL)
+
+La persistencia de la información requiere una base de datos llamada `plataforma_ia` compuesta por las siguientes tres tablas:
+1. `usuarios` (Control de accesos y credenciales).
+2. `categorias` (Clasificación pedagógica de los lineamientos).
+3. `recursos_ia` (Repositorio dinámico de consejos y normativas escolares).
+
+---
+
+## 👤 Credenciales de Acceso para Pruebas
+
+El sistema cuenta con dos cuentas preconfiguradas para validar el control de flujo y vistas de roles:
+* **Rol Administrador:** `admin@gmail.com` | Contraseña: `1234`
+* **Rol Estudiante/Lector:** `usuario@gmail.com` | Contraseña: `1234`
