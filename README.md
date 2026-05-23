@@ -2,6 +2,8 @@
 
 Sistema multiplataforma desarrollado en **Java EE (JSP)** y **MySQL** enfocado en estudiantes de educación básica (primaria y secundaria). El objetivo principal de **CiviBot** es guiar a los alumnos en el uso responsable, ético y seguro de las herramientas de Inteligencia Artificial Generativa.
 
+Desarrollar e implementar un software web denominado "CiviBot: Escuela de Civismo Digital" como una plataforma de enseñanza multiplataforma que permita la gestión, consulta y despliegue interactivo de tips, consejos y normatividades sobre el uso responsable de Inteligencia Artificial Generativa para estudiantes de primaria y secundaria, utilizando el lenguaje de programación Java y el motor de bases de datos MySQL para promover la seguridad informática desde la escuela.
+
 ---
 
 ## 🛠️ Software y Herramientas Utilizadas
