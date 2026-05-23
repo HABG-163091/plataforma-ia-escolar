@@ -1,6 +1,6 @@
-# 🚀 Plataforma Web de Civismo Digital y Buen Uso de IA Generativa
+# 🚀 CiviBot: Escuela de Civismo Digital e IA
 
-Sistema multiplataforma desarrollado en **Java EE (JSP)** y **MySQL** enfocado en estudiantes de educación básica (primaria y secundaria). El objetivo principal de la plataforma es guiar a los alumnos en el uso responsable, ético y seguro de las herramientas de Inteligencia Artificial Generativa.
+Sistema multiplataforma desarrollado en **Java EE (JSP)** y **MySQL** enfocado en estudiantes de educación básica (primaria y secundaria). El objetivo principal de **CiviBot** es guiar a los alumnos en el uso responsable, ético y seguro de las herramientas de Inteligencia Artificial Generativa.
 
 ---
 
@@ -20,7 +20,7 @@ Para el ciclo de vida completo de este software se emplearon las siguientes herr
 El sistema está organizado bajo buenas prácticas de desarrollo web en Java, separando las vistas de la lógica de conexión:
 
 * `web/`
-  * `index.jsp` -> Pantalla de acceso seguro (Login) con validación de roles.
+  * `index.jsp` -> Pantalla de acceso seguro (Login de CiviBot) con validación de roles.
   * `principal.jsp` -> Dashboard dinámico de aprendizaje que genera tarjetas basadas en la base de datos.
   * `detalle.jsp` -> Ficha pedagógica interactiva que despliega ejemplos prácticos según el recurso seleccionado.
   * `admin.jsp` -> Panel de administración con operaciones de lectura de datos y uso de arreglos lógicos.
@@ -40,6 +40,6 @@ La persistencia de la información requiere una base de datos llamada `plataform
 
 ## 👤 Credenciales de Acceso para Pruebas
 
-El sistema cuenta con dos cuentas preconfiguradas para validar el control de flujo y vistas de roles:
+El sistema cuenta con cuentas preconfiguradas para validar el control de flujo y vistas de roles dentro de CiviBot:
 * **Rol Administrador:** `admin@gmail.com` | Contraseña: `1234`
-* **Rol Estudiante/Lector:** `usuario@gmail.com` | Contraseña: `1234`
+* **Rol Estudiante/Lector:** `alumno@escuela.com` | Contraseña: `1234`
